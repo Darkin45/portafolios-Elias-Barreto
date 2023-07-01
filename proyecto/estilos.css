@@ -1,0 +1,77 @@
+body {
+    heigh:665px;
+    background-image: url("https://images4.alphacoders.com/936/thumb-1920-936378.jpg");
+    background-size: 10rem;
+      background-size: cover;
+        background-repeat:no-repeat;
+        background-position: center center;
+      }
+      
+    
+  
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+form{
+
+padding-top: 20px;
+width: 350px;
+height: 400px;
+background-color: blue;
+
+margin: 50px auto;
+border-top-right-radius: 20px;
+border-bottom-left-radius: 20px;
+
+}
+
+h1{
+color: white;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 30px;
+
+}
+
+input{
+
+font-size: 16px;
+padding: 8px;
+display: flex;
+margin: 10px auto;
+
+}
+
+label {
+    color: white;
+    display: block;
+
+   text-align: center;
+   margin: 15px;
+   
+
+font-size: 20px;
+
+}
+
+input[type="button"]
+{
+
+    width: 100px;
+    margin-top: 20px;
+    font-size: 20px;
+    display: block;
+    background-color: chocolate;
+
+}
+
+input[type="button"]:hover
+{
+
+    
+    background-color: coral;
+
+}
